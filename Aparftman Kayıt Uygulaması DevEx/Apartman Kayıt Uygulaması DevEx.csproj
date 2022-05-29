@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ADEA88D3-31A1-4EB2-B2B2-9B38F9820B27}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Aparftman_Kayıt_Uygulaması_DevEx</RootNamespace>
+    <AssemblyName>Aparftman Kayıt Uygulaması DevEx</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.Desktop.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v20.2.Core, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v20.2.Core, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Deneme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deneme.Designer.cs">
+      <DependentUpon>Deneme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAidatIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAidatIslemleri.Designer.cs">
+      <DependentUpon>FrmAidatIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAidatA2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAidatA2.Designer.cs">
+      <DependentUpon>FrmAidatA2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAidatA3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAidatA3.Designer.cs">
+      <DependentUpon>FrmAidatA3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAidatB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAidatB.Designer.cs">
+      <DependentUpon>FrmAidatB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAidatC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAidatC.Designer.cs">
+      <DependentUpon>FrmAidatC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBlokA1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBlokA1.Designer.cs">
+      <DependentUpon>FrmBlokA1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBlokA2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBlokA2.Designer.cs">
+      <DependentUpon>FrmBlokA2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBlokA3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBlokA3.Designer.cs">
+      <DependentUpon>FrmBlokA3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAnaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAnaForm.Designer.cs">
+      <DependentUpon>FrmAnaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBlokB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBlokB.Designer.cs">
+      <DependentUpon>FrmBlokB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBilgiler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBilgiler.Designer.cs">
+      <DependentUpon>FrmBilgiler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdmin.Designer.cs">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBloklarAidat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBloklarAidat.Designer.cs">
+      <DependentUpon>FrmBloklarAidat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBlokC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBlokC.Designer.cs">
+      <DependentUpon>FrmBlokC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHakkinda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHakkinda.Designer.cs">
+      <DependentUpon>FrmHakkinda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKayit.Designer.cs">
+      <DependentUpon>FrmKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRaporAidat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRaporAidat.Designer.cs">
+      <DependentUpon>FrmRaporAidat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRaporSu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRaporSu.Designer.cs">
+      <DependentUpon>FrmRaporSu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSu.Designer.cs">
+      <DependentUpon>FrmSu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IsikSitesiDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IsikSitesiDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Deneme.resx">
+      <DependentUpon>Deneme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAidatIslemleri.resx">
+      <DependentUpon>FrmAidatIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAidatA2.resx">
+      <DependentUpon>FrmAidatA2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAidatA3.resx">
+      <DependentUpon>FrmAidatA3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAidatB.resx">
+      <DependentUpon>FrmAidatB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAidatC.resx">
+      <DependentUpon>FrmAidatC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBlokA1.resx">
+      <DependentUpon>FrmBlokA1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBlokA2.resx">
+      <DependentUpon>FrmBlokA2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBlokA3.resx">
+      <DependentUpon>FrmBlokA3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBlokB.resx">
+      <DependentUpon>FrmBlokB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBilgiler.resx">
+      <DependentUpon>FrmBilgiler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAnaForm.resx">
+      <DependentUpon>FrmAnaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdmin.resx">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBloklarAidat.resx">
+      <DependentUpon>FrmBloklarAidat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBlokC.resx">
+      <DependentUpon>FrmBlokC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHakkinda.resx">
+      <DependentUpon>FrmHakkinda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKayit.resx">
+      <DependentUpon>FrmKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRaporAidat.resx">
+      <DependentUpon>FrmRaporAidat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRaporSu.resx">
+      <DependentUpon>FrmRaporSu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSu.resx">
+      <DependentUpon>FrmSu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="IsikSitesiDataSet.xsc">
+      <DependentUpon>IsikSitesiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="IsikSitesiDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IsikSitesiDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IsikSitesiDataSet.xss">
+      <DependentUpon>IsikSitesiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turkish-lira_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turkish-lira_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tl1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\su.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
